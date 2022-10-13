@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# This script is displaying a text using until
+i=0
+text="Best School"
+until ((i>9)); do
+      echo "$text"
+      ((i += 1))
+done
