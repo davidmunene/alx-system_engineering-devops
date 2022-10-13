@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# This script is daiplaying a text 20 times using while loop
+text="Best School"
+i=0
+while ((i<10)); do
+    echo "$text"
+    ((i += 1))
+done
